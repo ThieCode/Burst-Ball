@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83df33875391a1d409bbc8651177b656, type: 3}
+  m_Name: Game Sprites
+  m_EditorClassIdentifier: 
+  ballsSprites:
+  - {fileID: 21300000, guid: ab48ed0feb842ba4bba020e73bda086c, type: 3}
+  - {fileID: 21300000, guid: cfa39cdee46fcfd4ea69432d60226957, type: 3}
+  - {fileID: 21300000, guid: cd01fb8aed2ae3f4e8d30ea35140d417, type: 3}
+  - {fileID: 21300000, guid: 677233eb5f8fd2a48ac4c567f894f16a, type: 3}
+  items:
+  - name: Fire Speed
+    color1: {r: 1, g: 0.3372549, b: 0, a: 1}
+    color2: {r: 0.9622642, g: 0.82087934, b: 0.748932, a: 1}
+  - name: Fire Power
+    color1: {r: 0.7882353, g: 0.03137255, b: 0.9098039, a: 1}
+    color2: {r: 0.88851523, g: 0.7817729, b: 0.9056604, a: 1}
+  - name: Coins
+    color1: {r: 0.02745098, g: 0.47843137, b: 1, a: 1}
+    color2: {r: 0.7709594, g: 0.872793, b: 0.990566, a: 1}
+  - name: Hull Damage
+    color1: {r: 0.99215686, g: 0.8666667, b: 0.019607844, a: 1}
+    color2: {r: 0.9339623, g: 0.89587617, b: 0.63879496, a: 1}
+  - name: Inactive Button
+    color1: {r: 0.4056604, g: 0.4056604, b: 0.4056604, a: 1}
+    color2: {r: 0.7075472, g: 0.7075472, b: 0.7075472, a: 1}
+  prefabs:
+  - name: Basic Bullet
+    go: {fileID: 1524075690874644, guid: 2cf4672b20317124990cd76504c41603, type: 2}
+  - name: Basic Ball
+    go: {fileID: 1591006759250832, guid: aabf902f5532d444da68a0b3eab59d36, type: 2}
+  - name: Coin_1
+    go: {fileID: 1923078192332246, guid: af298f0c101d548428474a50fa91f132, type: 2}
+  - name: Coin_5
+    go: {fileID: 1211271572449662, guid: dc10a651902303b42a499ef9816e23e1, type: 2}
+  - name: Coin_10
+    go: {fileID: 1934785603699928, guid: ad0a9ace9b705384992fe3a5d0796fec, type: 2}
+  - name: Coin_50
+    go: {fileID: 1571426689062468, guid: 128865a1b497433419b69d03275b8654, type: 2}
+  - name: Coin_100
+    go: {fileID: 1519436574145646, guid: a18292472e907854584afcaba3c3acfb, type: 2}
+  - name: Coin_200
+    go: {fileID: 1343698098127704, guid: b0f3d56cfc74be547ab314cd8c999f78, type: 2}
